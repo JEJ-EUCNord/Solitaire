@@ -10,5 +10,11 @@ namespace Solitaire
     {
         public int Suit;
         public int Value;
+
+        public Card (int suit, int value)
+        {
+            Suit = suit;
+            Value = value;
+        }
     }
 }

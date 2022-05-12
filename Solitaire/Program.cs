@@ -1,11 +1,7 @@
 ﻿using Solitaire;
 
-Card card1 = new();
-Card card2 = new();
-card1.Suit = 1;
-card1.Value = 2;
-card2.Suit = 4;
-card2.Value = 13;
+Card card1 = new(1,2);
+Card card2 = new(4,13);
 
 Console.WriteLine(card1.Suit);
 Console.WriteLine(card1.Value);
